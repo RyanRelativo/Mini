@@ -2,7 +2,48 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
 }
+
+/* Navbar starts */
+#navbar {
+    background: #f9f9f9;
+}
+
+#logo {
+    font-size: 36px;
+    font-weight: 700;
+    color: black;
+    text-shadow: 0px 1px 1px black;
+    margin-bottom: 5px;
+}
+
+#logo span {
+    color: blue;
+}
+
+.navbar-toggler span {
+    color: blue;
+}
+
+.nav-item .nav-link {
+    font-size: 16px;
+    font-weight: 550;
+    color: black;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    transition: 0.5s;
+}
+
+.nav-item .nav-link:hover {
+    background: blue;
+    color: white;
+}
+
+/* Navbar ends */
+
 
 /* Body */
 
